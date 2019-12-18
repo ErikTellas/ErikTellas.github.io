@@ -1,0 +1,122 @@
+		table {
+			margin: auto;
+		}
+		
+		body {
+			background-color: #282A36;
+			color: white;
+			font-family: 'Muli', sans-serif;
+			background-image: url("https://i.pinimg.com/originals/79/82/89/79828938a1d5d95e86340f261b2abcbe.jpg");
+			}
+			
+		a {
+			color: white;
+			font-size: 20px;
+			}
+
+		
+		h1 {
+			text-align: center;
+		}
+		
+		#PageHeader {
+			margin: 1em;
+		}
+		
+		.click a {
+			display: block;
+		}
+		
+		.product {
+			text-align: center;
+		}
+		
+		#ProductImage {
+			border-radius: 5%;
+		}
+		
+		a, a:active {
+			text-decoration: none;
+		}
+		
+		.button:hover {
+			background-color: #C0C0C0;
+		}
+		
+		.button {
+			background-color: #FFFFFF;
+			color: #4CAF50;
+			font-size: 50px;			
+			border-radius: 10px;			
+			border: 20px;			
+			display: block;
+			margin: 20px auto;
+			cursor: pointer;
+			transition-duration: 0.4s;
+		}
+		
+		.button:hover {
+			background-color: #383838;
+		}
+		
+		
+		#mockups {
+			border-radius: 10px;
+		}
+		
+		p {
+			margin: 1em;
+		}
+		
+		#ContactPageMargin {
+			margin: 1em;
+		}
+		
+		/* .pictures { */
+			/* padding: 1em; */
+			/* display: block; */
+			/* margin: auto; */
+			/* text-align: center; */
+		/* } */
+		
+		
+		
+		.products {
+			border: 3px solid black;
+			padding: 10px;
+			border-collapse : collapse;
+		}
+		
+		#header {
+			background-color: #22b14c;
+			border-bottom: 3px solid black;
+		}
+		
+		.tableData {
+			border-bottom: 3px solid black;
+			padding: 5px;
+			background-color: gray;
+		}
+			
+		/*pls bro buy premium bro*/
+		
+		body, html {
+			height: 100%;
+			margin: 0;
+		}
+		
+
+		
+
+		.buypremium {
+			
+			background-image: url("https://i.redd.it/ythiy8zfh9z21.png");
+
+			
+			height: 100%; 
+
+			
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
