@@ -1,0 +1,136 @@
+body { 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://images.wallpaperscraft.com/image/mountains_clouds_trees_snow_119169_3840x2160.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+/*Header*/
+  .header {
+    overflow: hidden;
+    padding: 15px 10px;
+    height: 3em;
+    background-color: black;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  #logoImg {
+      width: 4em;
+      margin: 0em;
+      transform: translateY(-15%);
+  }
+
+  .header a {
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .headerButton:hover {
+    background-color: black;
+    background-color: rgba(0,0,0,0.4);
+    
+  }
+  
+.headerButton {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+  
+  .header-right {
+    float: right;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .header-right {
+      float: none;
+    }
+  }
+
+
+  /*Slogan*/
+
+  .slogan {
+    width: 80%;
+    font-size: 4em;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+
+  .description {
+    text-align: center;
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 25em;
+    margin-bottom: 5em;
+    color: #FFF;
+    font-size: 2em;
+  }
+
+
+  /*Protype*/
+
+  #prototype {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  .prototypeText {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    margin-top: 20em;
+    margin-bottom: 5em;
+  }
+
+  .prototypeText a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+  }
+
+
+  /*Contact*/
+
+  .contact {
+    text-align: center;
+    color: #FFF;
+    font-size: 2em;
+    margin-top: 12em;
+  }
+
+
+  .contact a {
+    color: white;
+    text-decoration: none;
+  }
