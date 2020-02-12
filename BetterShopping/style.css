@@ -255,3 +255,9 @@ body {
 a {
   text-decoration: none;
 }
+
+#product-name {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
