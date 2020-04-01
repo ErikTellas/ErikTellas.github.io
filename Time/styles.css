@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    background-color: #BBF5F7;
+    font-family: 'Bitter', serif;
+}
+
+/*header*/
+.header {
+    overflow: hidden;
+    padding: 15px 10px;
+    height: 3em;
+    background-color: black;
+    background-color: rgba(0,0,0,0.4);
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  #logoImg {
+      width: 4em;
+      margin: 0em;
+      transform: translateY(-15%);
+  }
+
+  .header a {
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .headerButton:hover {
+    background-color: black;
+    background-color: rgba(0,0,0,0.4);
+    
+  }
+  
+.headerButton {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+  
+  .header-right {
+    float: right;
+    margin-right: 20px;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .header-right {
+      float: none;
+    }
+  }
+
+
+
+
+/*slogan*/
+
+.slogan {
+    font-size: 2.5em;
+    color: white;
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4em;
+    background-color: #00AAB6;
+   }
+
+   .idea {
+    font-size: 2.5em;
+    color: white;
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2em;
+    background-color: #8EB3DD;
+   }
+
+   .additional {
+    font-size: 2.5em;
+    color: white;
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2em;
+    background-color: #00AAB6;
+   }
