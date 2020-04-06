@@ -80,29 +80,70 @@ body {
     align-items: center;
     flex-direction: column;
     margin-top: 4em;
-    background-color: #00AAB6;
-   }
-
-   .idea {
-    font-size: 2.5em;
-    color: white;
-    display: flex;
-    height: 50%;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 2em;
     background-color: #8EB3DD;
    }
 
-   .additional {
+
+   .idea {
+     margin-top: 2em;
+    display: flex;
+    width: 100%;
+    background-color: #00AAB6;
     font-size: 2.5em;
     color: white;
+   }
+
+   .idea-image {
+     object-fit: cover;
+     height: 500px;
+     width: 50%;
+   }
+
+   .idea-text {
+    text-align: center;
     display: flex;
-    height: 50%;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
+    justify-content: center;
+   }
+
+   /*
+   .description {
+    background-color: #FFF;
+    display: flex;
+    width: 100%;
+  }
+
+  .description-text {
+    font-size: 1.5em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 4em;
+  }
+
+  .description-pic {
+    object-fit: cover;
+  }
+
+*/
+
+   .additional {
     margin-top: 2em;
-    background-color: #00AAB6;
+    display: flex;
+    width: 100%;
+    font-size: 2.5em;
+    color: white;
+    background-color: #9AD5ED;
+   }
+
+   .additional-image {
+    object-fit: cover;
+    height: 500px;
+    width: 50%;
+   }
+
+   .additional-text {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
    }
