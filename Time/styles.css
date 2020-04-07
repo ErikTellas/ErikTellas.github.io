@@ -239,6 +239,20 @@ body {
     text-align: center;
    }
 
+   .figma-button {
+    background-color: #00AAB6;
+    margin: 40px;
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    font-size: 30px;
+   }
+
    /*Contact*/
 
    .contact-div {
