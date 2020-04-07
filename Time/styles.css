@@ -85,7 +85,8 @@ body {
 
 
    .idea {
-     margin-top: 2em;
+    height: 50%;
+    margin-top: 2em;
     display: flex;
     width: 100%;
     background-color: #00AAB6;
@@ -95,7 +96,6 @@ body {
 
    .idea-image {
      object-fit: cover;
-     height: 500px;
      width: 50%;
    }
 
@@ -127,6 +127,7 @@ body {
 */
 
    .additional {
+    height: 50%;
     margin-top: 2em;
     display: flex;
     width: 100%;
@@ -137,7 +138,6 @@ body {
 
    .additional-image {
     object-fit: cover;
-    height: 500px;
     width: 50%;
    }
 
@@ -147,3 +147,109 @@ body {
     align-items: center;
     justify-content: center;
    }
+
+   .mockups {
+    height: 50%;
+    margin-top: 2em;
+    display: flex;
+    width: 100%;
+    font-size: 2.5em;
+    color: white;
+    background-color: #8EB3DD;
+   }
+
+   .mockup-images {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+   }
+
+   .mockup {
+     height: 100%;
+   }
+
+   /*Prototype*/
+
+  .aligner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+  }
+
+   .prototype-body {
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     height: 500px;
+     width: 300px;
+     background-color: #8EB3DD;
+     border-radius: 10px;
+   }
+
+   .prototype-title {
+     margin: 20px;
+     color: white;
+     font-size: 30px;
+   }
+
+   .prototype-text {
+     margin: 20px;
+     color: white;
+   }
+
+   .savings-input{
+     width: 150px;
+     height: 30;
+     font-size: 20px;
+     text-align: center;
+     margin: 20px;
+     border-radius: 5px;
+     border: none;
+   }
+
+   .price-input {
+    width: 150px;
+    height: 30;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 5px;
+    border: none;
+   }
+
+   .calculate-button {
+     margin: 20px;
+     border: none;
+     width: 100px;
+     height: 30px;
+     border-radius: 10px;
+     font-size: 17px;
+     cursor: pointer;
+     outline: none;
+   }
+
+
+   .result-text {
+    margin: 20px;
+    color: white;
+    text-align: center;
+   }
+
+   /*Contact*/
+
+   .contact-div {
+     background-color: #00AAB6;
+     color: white;
+     font-size: 30px;
+     padding: 20px;
+     border-radius: 10px;
+     text-align: center;
+   }
+
+
+
+
