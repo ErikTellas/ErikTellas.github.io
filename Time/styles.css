@@ -184,10 +184,11 @@ body {
      display: flex;
      align-items: center;
      flex-direction: column;
-     height: 500px;
-     width: 300px;
+     height: 30em;
+     width: 17em;
      background-color: #8EB3DD;
      border-radius: 10px;
+     margin-top: 5em;
    }
 
    .prototype-title {
@@ -241,10 +242,11 @@ body {
 
    .figma-button {
     background-color: #00AAB6;
-    margin: 40px;
+    margin: 1em;
+    margin-bottom: 0;
     border: none;
-    width: 150px;
-    height: 50px;
+    width: 5em;
+    height: 1.5em;
     border-radius: 10px;
     font-size: 17px;
     cursor: pointer;
