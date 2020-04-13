@@ -76,28 +76,41 @@ body {
   /*Slogan*/
 
   .slogan {
-    width: 80%;
     font-size: 2.5em;
     color: white;
-    display: block;
-    text-align: center;
-    box-sizing: border-box;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 300px;
+    display: flex;
+    height: 10em;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 4em;
    }
 
 
-  .description {
-    text-align: center;
-    display: block;
-    color: #FFF;
-    font-size: 2em;
-  }
+   .downArrow {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
 
+   /*Description*/
+
+   .description {
+     background-color: #FFF;
+     display: flex;
+     width: 100%;
+   }
+
+   .description-text {
+     font-size: 1.5em;
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+     margin: 4em;
+   }
+
+   .description-pic {
+     object-fit: cover;
+   }
 
 
 
@@ -143,22 +156,7 @@ body {
   #testText {
     color: blue;
   }
-  .table-description {
-    border-spacing: 20px;
-    background-color: black;
-    background-color: rgba(0,0,0,0.4);
-    border: 1px solid white;
-    border-radius: 70px;    
-  }
-   .sample-image {
-     text-align: center;
-   }
-
-  table {
-    width: 80%;
-    margin: auto;
-    border-spacing: 1em;
-  }
+ 
 
 
    /*Java Prototype*/
@@ -255,7 +253,6 @@ body {
 a {
   text-decoration: none;
 }
-
 #product-name {
   border: 1px solid black;
   border-radius: 10px;
