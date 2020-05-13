@@ -11,6 +11,15 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166332279-1"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-166332279-1');
+		</script>
 	</head>
 	<body class="is-preload">
 
@@ -36,11 +45,17 @@
 								</header>
 								<a href="#work" class="jumplink pic">
 									<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
-									<img src="images/me.jpg" alt="" />
+									<img src="https://images.unsplash.com/photo-1573855619003-97b4799dcd8b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="" />
 								</a>
 							</article>
 
 						<!-- Work -->
+						<script>
+							function tryMe() {
+								window.open("https://www.figma.com/proto/jd7nTr77SqqrgSgZG676Xk/BetterShopping?node-id=252%3A3&scaling=scale-down", "_blank"); 
+								gtag('event','Try Me!');
+							}
+						</script>
 							<article id="work" class="panel">
 								<header>	
 									<h2>What is BetterShopping?</h2>
@@ -59,6 +74,9 @@
 										<div class="col-4 col-6-medium col-12-small">
 											<a href="#" class="image fit"><img src="images/mockup2.png" alt=""></a>
 										</div>
+										<div style="width: 100%; display: flex; justify-content: center;">
+											<button onclick="tryMe()" style="width: 10em; height: 4em;">Try Me!</button>
+										</div>
 									</div>
 
 
@@ -66,6 +84,12 @@
 							</article>
 
 						<!-- Contact -->
+							<script>
+								function ClickSubscribe() {
+									gtag('event','Subscribed');
+								}
+							</script>
+
 							<article id="contact" class="panel">
 								<header>
 									<h2>Subscribe</h2>
@@ -84,7 +108,7 @@
 				<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
 				<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 				<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0c407f2158dee4647adf8b79b_71464fa5fe" tabindex="-1" value=""></div>
-				<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+				<div class="clear"><input onclick=ClickSubscribe() type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 				</div>
 			</form>
 			</div>
