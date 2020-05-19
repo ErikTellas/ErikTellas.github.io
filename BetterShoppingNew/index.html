@@ -20,6 +20,7 @@
 		gtag('js', new Date());
 		gtag('config', 'UA-166332279-1');
 		</script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	</head>
 	<body class="is-preload">
 
@@ -92,7 +93,7 @@
 
 							<article id="contact" class="panel">
 								<header>
-									<h2>Subscribe</h2>
+									<h2 id="subscribetext">Subscribe</h2>
 								</header>
 								<!-- Begin Mailchimp Signup Form -->
 
@@ -111,6 +112,14 @@
 				<div class="clear"><input onclick=ClickSubscribe() type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 				</div>
 			</form>
+
+			<script>
+				$("#mc-embedded-subscribe").click(function() {
+					$("#mc_embed_signup").hide();
+					$("#subscribetext").text("Subscribed!");
+				});
+			</script>
+
 			</div>
 
 <!--End mc_embed_signup-->
