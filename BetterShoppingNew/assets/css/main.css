@@ -72,6 +72,10 @@ input, select, textarea {
 	appearance: none;
 }
 
+.main-logo {
+	width: 15%;
+}
+
 /* Row */
 
 	.row {

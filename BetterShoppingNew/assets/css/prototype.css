@@ -1,0 +1,98 @@
+   .prototypeHeader {
+    text-align: center;
+    font-size: 1em;
+    padding: 1em;
+  }
+
+  #prototypeList {
+    font-size: 2em;
+    list-style: none;
+    text-align: center;
+  }
+
+
+  #place-price-here {
+    text-align: right;
+  }
+
+  .item-name {
+    color: black;
+    display: inline-block;
+    margin: 0;
+
+  }
+
+  .item-price {
+    color: black;
+    float: right;
+    margin: 0;
+    padding-right: 30px;
+  }
+
+
+  .border {
+    border: solid;
+    width: 30em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+    background-color: white;
+    border-radius: 30px;
+  }
+
+  .name {
+    text-align: center;
+  }
+
+  #price {
+    text-align: right;
+    float: right;
+    margin-right: 30px;
+
+  }
+
+  .worse-item-price {
+    color: grey;
+    float: right;
+    margin: 0;
+    padding-right: 30px;
+  }
+
+  .addBtn {
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+
+
+  .figmaButton{
+    background-color: #23B14D; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;    
+    border-radius: 30px;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    margin: 20px auto;
+    margin-top: 10em;
+}
+
+.figmaButton:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#container-tryit {
+  margin: auto;
+}
+a {
+  text-decoration: none;
+}
+#product-name {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}

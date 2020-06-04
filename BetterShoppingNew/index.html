@@ -10,7 +10,10 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/prototype.css">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="shortcut icon" type="image"
+            href="https://i.imgur.com/wZ2sHsK.png"/>  
 
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166332279-1"></script>
@@ -41,6 +44,7 @@
 						<!-- Me -->
 							<article id="home" class="panel intro">
 								<header>
+									<img src="images/logo-grey.png" class="main-logo">
 									<h1>BetterShopping</h1>
 									<p>Save time and money while shopping.</p>
 								</header>
@@ -50,7 +54,7 @@
 								</a>
 							</article>
 
-						<!-- Work -->
+						<!-- What is it -->
 						<script>
 							function tryMe() {
 								window.open("https://www.figma.com/proto/jd7nTr77SqqrgSgZG676Xk/BetterShopping?node-id=252%3A3&scaling=scale-down", "_blank"); 
@@ -67,20 +71,47 @@
 								<section>
 									<div class="row">
 										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/mockup.png" alt=""></a>
+											<a href="#" class="image fit"><img src="images/money.png" alt=""></a>
 										</div>
 										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/mockup1.png" alt=""></a>
+											<a href="#" class="image fit"><img src="images/time.png" alt=""></a>
 										</div>
 										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/mockup2.png" alt=""></a>
+											<a href="#" class="image fit"><img src="images/easy.png" alt=""></a>
 										</div>
+										<div style="text-align: center;" class="col-4 col-6-medium col-12-small">
+											<h3>Save money</h3>
+										</div>
+										<div style="text-align: center;" class="col-4 col-6-medium col-12-small">
+											<h3>Save time</h3>
+										</div>
+										<div style="text-align: center;" class="col-4 col-6-medium col-12-small">
+											<h3>Easy to use</h3>
+										</div>
+
+										<div class="border"> 
+
+											<div class="prototypeHeader">
+												<h2>BetterShopping</h2>
+												<input type="text" id="product-name" placeholder="Enter product name...">
+												<span onclick="addItem()" class="addBtn">Add</span>
+												
+											</div>
+								
+											<div class="name">
+												Name
+												<span id="price">Price</span>
+												<span id="price">Price 2</span>
+											</div>
+								
+											<ul id="prototypeList"></ul>
+										</div>
+
+
 										<div style="width: 100%; display: flex; justify-content: center;">
 											<button onclick="tryMe()" style="width: 10em; height: 4em;">Try Me!</button>
 										</div>
 									</div>
-
-
 								</section>
 							</article>
 
@@ -142,6 +173,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/prototype.js"></script>
 
 	</body>
 </html>
